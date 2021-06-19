@@ -1,516 +1,595 @@
-<!-- start your project here -->
-<!--Main Navigation-->
-<html>
+<!doctype html>
+<html class="no-js" lang="zxx">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>一些关于美的事情</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <!-- Bootstrap core CSS -->
+    <title>谈美书屋</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- favicon.png and root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+
+    <!-- All css here -->
+
+    <!-- bootstrap 4.0 css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="css/mdb.min.css">
-    <!-- Your custom styles (optional) -->
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-<header>
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- magnific css -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- meanmenu css -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- venobox css -->
+    <link rel="stylesheet" href="css/venobox.css">
+    <!-- Icon font css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style-1.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
 
-    <div class="container">
-  
-      <!-- Navbar brand -->
-      <a class="navbar-brand" href="#">主界面</a>
-  
-      <!-- Collapse button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <!-- Collapsible content -->
-      <div class="collapse navbar-collapse" id="basicExampleNav">
-  
-        <!-- Links -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">目录
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-  
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+
+<body>
+    <!-- preloader  -->
+    <div id="preloader"></div>
+    <!-- Start header -->
+    <header class="header-one">
+        <div id="sticker" class="header-menu-area header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-3 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="index.html"><img src="https://dss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2696611830,2697326045&fm=26&gp=0.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-9">
+                        <div class="header-right">
+                            <!-- search option start -->
+                            <div class="search-inner">
+                                <form action="#">
+                                    <div class="search-option">
+                                        <input type="text" placeholder="Search...">
+                                        <button class="button" type="submit"><i class="ti-search"></i></button>
+                                    </div>
+                                    <a class="main-search" href="#"><i class="ti-search"></i></a>
+                                </form>
+                            </div>
+                            <!-- search option end -->
+                            <!-- <a href="contact.html" class="hd-btn"><i class="ti-comment"></i>Let's Talk</a> -->
+                        </div>
+                        <div class="header_menu t-center">
+                            <nav id="mobile-menu">
+                                <ul class="main-menu">
+                                    <li class="menu-item-has-children"><a href="#">书屋</a>
+                                        <ul class="submenu">
+                                            <li><a href="index.html">First</a></li>
+                                            <li><a href="index-2.html">Second</a></li>
+                                            <li><a href="index-3.html">Third</a></li>
+                                            <li><a href="index-4.html">Fourth</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="#">真</a>
+                                        <ul class="submenu">
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="services.html">Services</a></li>
+                                            <li><a href="service-details.html">Services Details</a></li>
+                                            <li><a href="team.html">Teams</a></li>
+                                            <li><a href="team-single.html">Team Single</a></li>
+                                            <li><a href="review.html">Reviews</a></li>
+                                            <li><a href="pricing.html">Pricing</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="error.html">Error</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="#">善</a>
+                                        <ul class="submenu">
+                                            <li><a href="portfolio.html">Portfolio 01</a></li>
+                                            <li><a href="portfolio-2.html">Portfolio 02</a></li>
+                                            <li><a href="project-details.html">Portfolio Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="#">美</a>
+                                       
+                                    </li>
+                                    <li class="contact"><a href="https://book.douban.com/subject/1040466/">感受</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
             </div>
-          </li>
-  
-        </ul>
-        <!-- Links -->
-  
-        <form class="form-inline">
-          <div class="md-form my-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          </div>
-        </form>
-      </div>
-      <!-- Collapsible content -->
-  
-    </div>
-  
-  </nav>
-  <!--Mask-->
-<div id="intro" class="view">
-
-    <div class="mask rgba-black-strong">
-     
-      <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-       
-        <div class="row d-flex justify-content-center text-center">
+        </div>
+    </header>
+    <!-- End header area -->
+    <main>
+        <!-- Start intro area -->
+        <div class="intro-area intro-home">
+            <div class="bg-wrapper">
+            	<img src="img/background/bg1.png" alt="">
+            </div>
+			<div class="intro-content">
+				<div class="slider-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-6 col-lg-6 col-md-6">
+								<div class="slide-all-text">
+								    <!-- layer 1 -->
+                                   <div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
+                                        <h4 class="title-1">歌德 培根</h4>
+                                    </div>
+                                    <!-- layer 2 -->
+                                    <div class="layer-2 wow fadeInUp" data-wow-delay="0.3s">
+                                        <h2 class="title-2">这是一场说走就走的关于美的旅行</h2>
+                                    </div>
+                                    <!-- layer 3 -->
+                                    <div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
+                                        <a href="services.html" class="ready-btn anti-btn" >开始美丽之旅吧！</a>
+                                        <div class="video-content">
+                                            <a href="D:\edgedownload\moban5536\moban5536\林风悠悠 - 谈美---培根 (节目).mp3" class="video-play vid-zone">
+                                                <i class="fa fa-play"></i>
+                                                <span>听！</span>
+                                            </a>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6">
+								<div class="slide-images-inner wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="slide-images">
+                                        <div class="slide-top-image">
+                                            <img class="top-img1 tilt-img" src="https://p9.itc.cn/q_70/images03/20210617/9c9bd8fce525459da7ca94b6ae931cde.jpeg" alt="" data-tilt>
+                                            <img class="top-img2 tilt-img" src="https://p4.itc.cn/q_70/images03/20210617/d6ea37b11ee149d19c85a397a71edb74.jpeg" alt="">
+                                        </div>
+                                        <div class="slide-bot-image">
+                                            <img class="top-img3 tilt-img" src="https://cdnimg103.lizhi.fm/audio_cover/2016/08/21/2552375403379181063_320x320.jpg" alt="" data-tilt>
+                                        </div>
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
         
-          <div class="col-md-10">
-  
-            <!-- Heading -->
-            <h2 class="display-4 font-weight-bold green-text pt-5 mb-2">美</h2>
-  
-            <!-- Divider -->
-            <hr class="hr-light">
-  
-            <!-- Description -->
-            <h4 class="white-text my-4">许多艺术都应用规律和节奏，而规律和节奏所生的心理影响都以这种无意的预料为基础。</h4>
-            <a href="file:///D:/edgedownload/moban5536/moban5536/index.html"> <button type="button" class="btn btn-outline-white">谈美<i class="fas fa-allergies ml-2"></i></button> </a>
-  
-          </div>
-  
-        </div>
-  
-        </div>
-  
-    </div>
-  
-  </div>
-  <!--/.Mask-->
-  <!--/.Navbar-->
-</header>
-<!--Main Navigation-->
+        <div class="welcome-service fix area-padding">
+            <div class="bg-icon"><img src="https://img3.doubanio.com/view/subject/s/public/s6794170.jpg" alt=""></div>
+            <div class="container">
+                <div class="row">
+                    <!-- Start feature column  -->
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="wel-text wow fadeInUp" data-wow-delay="0.2s">
+                           <div class="wel-content">
+                               <a href="service-details.html"><h4>
+                                一、美感是什么？</h4></a>
+                               <p>一棵古松作例，揭示了人们三种不同的态度，即“实用的态度”之“善”、“科学的态度”之“真”、“美感的态度”之“美”。
 
-<!--Main layout-->
-<main class="mt-5">
-    <div class="container">
-  
-      <!--Section: Best Features-->
-<section id="best-features" class="text-center">
+                                </p>
+                               <span class="wel-down-icon"><i class="flaticon-017-diagram"></i></span>
+                               <span class="p-number">一</span>
+                           </div>
+                        </div>
+                    </div>
+                    <!-- End feature column  -->
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="wel-text wel-up wow fadeInUp" data-wow-delay="0.3s">
+                           <div class="wel-content">
+                               <a href="service-details.html"><h4>二、关于美学的探讨</h4></a>
+                               <p>朱光潜先生认为，美感与实用活动无关，而快感则起于与实际要求的满足。</p>
+                               <span class="wel-down-icon"><i class="flaticon-007-graph"></i></span>
+                               <span class="p-number">二</span>
+                           </div>
+                        </div>
+                    </div>
+                    <!-- End feature column  -->
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="wel-text wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="wel-content">
+                                <a href="service-details.html"><h4>三、自然美的存在</h4></a>
+                               <p>朱光潜先生则用一副“线条”图为例，让读者亲自体验审美的过程，证明了“自然美”其实是一个矛盾的概念</p>
+                               <span class="wel-down-icon"><i class="flaticon-028-graph"></i></span>
+                               <span class="p-number">三</span>
+                           </div>
+                        </div>
+                    </div>
+                    <!-- End feature column  -->
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="wel-text r-mar wel-up wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="wel-content">
+                                <a href="service-details.html"><h4>四、如何创造美</h4></a>
+                               <p>创造之中有欣赏，但创造却不全是欣赏。欣赏只是要见到一种意境，而创造要把这种意境外射出来，是一种更为高级的运动</p>
+                               <span class="wel-down-icon"><i class="flaticon-016-graph"></i></span>
+                               <span class="p-number">四</span>
+                           </div>
+                        </div>
+                    </div>
+                    <!-- End single column-->
+                </div> 
+            </div>
+        </div>
+        <!-- End Welcome area -->
+        <!-- Start About area -->
+        <div class="about-area bg-color-dark area-padding">
+            <div class="container">
+                <div class="row">
+                    <!-- Start Column Start -->
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="ab-image">
+                            <img src="https://img3.doubanio.com/view/subject/s/public/s6794170.jpg" alt="">
+                            <div class="big-content">
+                                <span class="big-text">朱</span>
+                                <span class="under-text">光潜</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="about-text">
+                            <div class="left-headline">1` 
+                                <h2>朱光潜美学经典</h2>
+                                <p>悠悠的过去只是一片漆黑的天空，我们所以还能认识出来这漆黑的天空者，全赖思想家和艺术家所散布的几点星光。朋友，让我们郑重这几点星光</p>
+                            </div>
+                            <div class="about-company">
+                                <div class="single-about">
+                                    <span class="about-icon"><img src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=242652978,252397628&fm=26&gp=0.jpg" alt=""></span>
+                                    <div class="counter-text">
+                                      <!-- <h2><span class="count"></span>+</h2> -->
+                                      <h5>热爱</h5>
+                                    </div>
+                                </div>
+                                <div class="single-about">
+                                    <span class="about-icon"><img src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4072780726,1600274262&fm=26&gp=0.jpg" alt=""></span>
+                                    <div class="counter-text">
+                                      <!-- <h2><span class="count">1200</span>+</h2> -->
+                                      <h5>世界大美</h5>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                    <!-- End Column -->
+                </div>
+            </div>
+        </div>
+        <!-- End About area -->
+        
+        <!-- Start Reviews Area -->
+        <div class="reviews-area fix">
+            <div class="container-full">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-5">
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7">
+                        <div class="reviews-content">
+                            <div class="section-headline white-headline text-center">
+                                <h2>摘录</h2>
+                                <p>本书是朱光潜先生建立其早期美学理论体系的重要著作之一。
+                                    全书从“谈美”“免俗”，“人心净化”的目标出发，顺着美从哪里来，
+                                    美是什么及美的特点这一脉络层层展开，娓娓道来，
+                                    抒发了这位美学大家的人格理想，审美理想，提出了他的美学研究的理想目标，
+                                    即“人生的艺术化”。
 
-    <!-- Heading -->
-    <h2 class="mb-5 font-weight-bold">《谈美》</h2>
-  
-    <!--Grid row-->
-    <div class="row d-flex justify-content-center mb-4">
-  
-      <!--Grid column-->
-      <div class="col-md-8">
-  
-        <!-- Description -->
-        <p>朱光潜：</p>
-  
-      </div>
-      <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-  
-    <!--Grid row-->
-    <div class="row">
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-1">
-        <i class="fas fa-camera-retro fa-4x orange-text"></i>
-        <h4 class="my-4">Experience</h4>
-        <p class="grey-text">艺术家在写切身的情感时，都不能同时在这种情感中过活，必定把它加以客观化，必定由站在主位的尝受者退为站在客位的观赏者。一般人不能把切身的经验放在一种距离以外去看，所以情感尽管深刻，经验尽管丰富，终不能创造艺术。 ----朱光潜</p>
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-1">
-        <i class="fas fa-heart fa-4x red-text"></i>
-        <h4 class="my-4">beauties</h4>
-        <p class="grey-text">悠悠的过去只是一片漆黑的天空，我们所以还能认识出来这漆黑的天空者，全赖思想家和艺术家所散布的几点星光。朋友，让我们珍重这几点星光！让我们也努力散布几点星光去照耀那和过去一般漆黑的未来！ ----朱光潜</p>
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-md-4 mb-1">
-        <i class="fas fa-bicycle fa-4x brown-text "></i>
-        <h4 class="my-4">Adventure</h4>
-        <p class="grey-text">种田人常羡慕读书人，读书人也常羡慕种田人。竹篱瓜架旁的黄梁浊酒和朱门大厦中的山珍海鲜，在旁观者所看出来的滋味都比当局者亲口尝出来的好。 ----朱光潜</p>
-      </div>
-      <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-  
-  </section>
-  <!--Section: Best Features-->
- <!-- ++++++++++++++++++++++ 分割线+++++++++++++++++++++++ -->
-      <hr class="my-5">
-  
-      <!--Section: Examples-->
-<section id="examples" class="text-center">
+                                    该书渗透了朱光潜先生对艺术与人生关系的深刻体悟
+                                    。作者以一种对老友交谈的语气平淡道出，
+                                    其瑰丽思想在清新质朴的文字中缓缓流淌
+                                    ，有如“风行水上，自然成纹”，而其在全书最末喊出的“慢慢走
+                                    ，欣赏啊！”则更具振聋发聩之用，无怪乎该书一直被视为“科学性，
+                                    普及性的经典之作。”</p>
+                            </div>
+                            <!-- start testimonial carousel -->
+                            <div class="testimonial-carousel owl-carousel item-indicator">
+                                <div class="single-testi">
+                                    <div class="testi-text">
+                                        <div class="clients-text">
+                                            <div class="client-rating">
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                            </div>
+                                            <p>当时的人受实际问题的牵绊，不能把这些人物的行为从极繁复的社会信仰和利害观念的圈套中划出来，当作美丽的意象来观赏。
+                                                我们在时过境迁之后，不受当时的实际问题的牵绊，所以能把它们当作有趣的故事来谈。它们在当时和实际人生的距离太近，
+                                                到现在则和实际人生距离较远了，好比经过一些年代的老酒，已失去它的原来的辣性，只留下纯淡的滋味。 　　一般人迫于实际生活的需要，
+                                                都把利害认得太真，不能站在适当的距离之外去看人生世相，于是这丰富华严的世界，除了可效用于饮食男女的营求之外，便无其他意义。
+                                                他们一看到瓜就想它是可以摘来吃的，一看到漂亮的女子就起性欲的冲动。他们完全是占有欲的奴隶。花长在园里何尝不可以供欣赏了他们却欢喜把它摘下来挂在自己的襟上或是插在自己的瓶里。
+                                                在许多民族的神话里面，伟大的人物都有母而无父，耶稣和孔子就是著例，耶稣是上帝授胎的，孔子之母祷于尼丘而生孔子。
+                                                美感经验是直觉的而不是反省的。在聚精会神之中我们既忘去自我，自然不能觉得我是否欢喜所观赏的形象，
+                                                或是反省这形象所引起的是不是快感。我们对于一件艺术作品欣赏的浓度愈大，就愈不觉得自己是在欣赏它，
+                                                愈不觉得所生的感觉是愉快的。如果自己觉得快感，我便是由直觉变而为反省，好比提灯寻影，灯到影灭，美感的态度便已失去了。
+                                                美感所伴的快感，在当时都不觉得，到过后才回忆起来。比如读一首诗或是看一幕戏，当时我们只是心领神会，无暇他及，后来回想，才觉得这一番经验很愉快。</p>
+                                            <div class="testi-img ">
+                                                <div class="guest-details">
+                                                    <h4>摘自</h4>
+                                                    <span class="guest-rev">第210页</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+                                <div class="single-testi">
+                                    <div class="testi-text">
+                                        <div class="clients-text">
+                                            <div class="client-rating">
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                            </div>
+                                            <p>青年们往往将杂志当水火，当饭菜；他们从这里得着美学的知识，
+                                                正如从这里得着许多别的知识一样。他们也往往应用这点知识去欣赏，
+                                                去批评别人的作品，去创造自己的。不少的诗文和绘画就如此形成。
+                                                但这种东鳞西爪积累起来的知识只是“杂拌儿”
+                                                ；－-还赶不上“杂拌儿”，因为“杂拌儿”总算应有尽有，而这种识不然。
+                                                应用起来自然是够苦的，够张罗的。
+                                                从这种凌乱的知识里，得不着清清楚楚的美感观念。
+                                                徘徊于美感与快感之间，考据、批评与欣赏之间，
+                                                自然美与艺术美之间，常时自己冲突，自己烦恼，
+                                                而不知道怎样去解那连环。又如写实主义与理想主义就像是难分难解的一对冤家，
+                                                公说公有理，婆说婆有理，各有一套天花乱坠的话。
+                                                你有时乐意听这一造的，有时乐意听那一造的，
+                                                好教你左右做人难！还有近年来习用的“主观的”、“客观的”两个名字，
+                                                也不只一回“缠夹二先生”。因此许多青年腻味了
+                                                ，索性一切不管，只抱着一条道理，“有文艺的嗜好就可以谈文艺”。
+                                                这是“以不了了之”，究竟“谈”不出什么来</p>
+                                            <div class="testi-img ">
+                                                <div class="guest-details">
+                                                    <h4>引自--《附录》</h4>
+                                                    <span class="guest-rev">《谈美》序--朱自清</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+                                <div class="single-testi">
+                                    <div class="testi-text">
+                                        <div class="clients-text">
+                                            <div class="client-rating">
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                                <a href="#"><i class="ti-star"></i></a>
+                                            </div>
+                                            <p>朱光潜先生的《谈美》作为一部美学著作，是备受美学专业者关注的，
+                                                而朱光潜先生以“通俗叙述”的形式，将枯燥、繁冗的美学理论渗透其中，
+                                                从而更吸引了初学者对美学的探索，不禁恍然大悟：原来美学是如此好玩如此有意思的东西。
 
-    <!-- heading -->
-    <h2 class="mb-5 font-weight-bold brown-text">Something gorgeous!</h2>
-  
-    <!--Grid row-->
-    <div class="row">
-  
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-12 mb-4">
-  
-        <div class="view overlay z-depth-1-half">
-          <img src="D:\IMG\setting sunsdsd.jpg" class="img-fluid">
-          <a href="http://www.360doc.com/content/16/0402/12/200521_547284280.shtml">
-            <div class="mask rgba-white-slight"></div>
-          </a>
+                                                《谈美》全书是一个循序渐进的体系，既像一个耐心的长者又像一个亲切的朋友在陪伴并与你长谈人生故事
+                                                。《谈美》一书中不是在谈深奥的美学，而更是一部介绍美、鼓励年轻人去发现美、创造美的书。
+                                                朱光潜先生在这部书里面所提到的美，也并非完全是哲学意义上的“审美”，而是更多的在探讨自然美、艺术美、人生美，这些我们在生活中看得见、摸得着的美的事物。“文艺和梦一样，都是欲望带着假面具逃开意识检查”，或者是因为文艺和梦都是都是美妙的，生活中我们无法忽略美对于人生路上的存在，即便普普通通的身份，都有自己最美的人生。
+                                                
+                                                “人要有出世的精神才可以做入世的事业”，
+                                                我们如果想要懂得如何去创造美，就要大胆的、大量的去欣赏美。对于创作而言，
+                                                极重要的灵感就是出自持续不断的，广泛的审美所积攒下来的潜意识活动。虽然艺术的门类繁多，
+                                                但我们对于美的感受却是相通的。只有多去欣赏美，我们才能在潜意识里面积累足够多的情思，
+                                                从而碰擦出宝贵的灵感火花。
+                                                
+                                                我们中的大多数虽然无法成为优秀的艺术家，但懂得以跳出实用的眼光去“玩味”生活，去
+                                                欣赏人生，我们也会从着“无所为而为的玩索”中体味到无限的乐趣。
+                                                《谈美》让读者们对美有了重新的认识，而且美就在身边
+                                                ，我们都需要一双发现美的眼睛去欣赏人生最美的艺术品，欣赏人生真善美，欣赏世事故事美
+                                                ，即使美对于我们都是不一样的，但却都是独属于我们的人生艺术品。正如朱光潜先生告诉我们的，慢慢走，欣赏啊.</p>
+                                            <div class="testi-img ">
+                                                <div class="guest-details">
+                                                    <h4>读后感</h4>
+                                                    <span class="guest-rev">无名小辈</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-  
-        <h4 class="my-4 font-weight-bold yellow-text">落日余晖</h4>
-        <p class="grey-text">大漠孤烟直,长河落日圆. </p>
-  
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-4">
-  
-        <div class="view overlay z-depth-1-half">
-          <img src="D:\IMG\sun rising.jpg" class="img-fluid">
-          <a href="#!">
-            <div class="mask rgba-white-slight"></div>
-          </a>
-        </div>
-  
-        <h4 class="my-4 font-weight-bold ">日出</h4>
-        <p class="grey-text">日出扶桑一丈高，人间万事细如毛</p>
-  
-      </div>
-      <!--Grid column-->
-  
-      <!--Grid column-->
-      <div class="col-lg-4 col-md-6 mb-4">
-  
-        <div class="view overlay z-depth-1-half">
-          <img src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2149998488,3762018402&fm=26&gp=0.jpg" class="img-fluid">
-          <a href="#!">
-            <div class="mask rgba-white-slight"></div>
-          </a>
-        </div>
-  
-        <h4 class="my-4 font-weight-bold">秋日</h4>
-        <p class="grey-text">自古逢秋悲寂寥， 我言秋日胜春朝。</p>
-  
-      </div>
-      <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-  
-    <!--Grid row-->
-    
-    <!--Grid row-->
-  
-  </section>
-  <!--Section: Examples-->
-  
-      <hr class="my-5">
-  
-     <!--Section: Gallery-->
-<section id="gallery">
+        <!-- End Reviews End -->
+        <!-- Start Quote Area -->
+		<div class="quote-area fix bg-color-dark">
+            <div class="container-full">
+                <div class="row">
+                   <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="quote-image">
+                            <img src="https://img1.doubanio.com/img/author/raw/public/1502492894.69.jpg" alt=" ">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="quote-all">
+                            <div class="sub-head white-headline">
+                                <h2>Contact us for services</h2>
+                            </div>
 
-    <!-- Heading -->
-    <h2 class="mb-5 font-weight-bold text-center">美景</h2>
-  
-    <!--Grid row-->
-    <div class="row">
-  <!-- 左边的列W@@@@@@@@ -->
-      <!--Grid column-->
-<div class="col-md-6 mb-4">
+                            <form id="contactForm" method="POST" action="contact.php" class="contact-form">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                            <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                            <div class="help-block with-errors"></div>
+                                            <input type="text" id="msg_subject" class="form-control last-part" placeholder="Subject" required data-error="Please enter your message subject">
+                                            <div class="help-block with-errors last-part"></div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                        <button type="submit" id="submit" class=" anti-btn quote-btn">Submit</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                        <div class="clearfix"></div>
+                                    </div>   
+                                </div>   
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- End Quote Area -->
+    </main>
+    <!-- Start Footer Area -->
+    <footer class="footer1">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="footer-content logo-footer">
+                            <div class="footer-head">
+                                <div class="footer-logo">
+                                    <a href="#"><img src="img/logo/logo.png" alt=""></a>
+                                </div>
+                                <p>
+                                    When replacing a selection. help agencies to define their new business objectives and then create. maintains the amount of lines. When replacing a selection. help agencies to define their
+                                </p>
+                                <div class="footer-icons">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-google"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-pinterest"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <h4>Services link</h4>
+                                <ul class="footer-list">
+                                    <li><a href="service-details.html">Business</a></li>
+                                    <li><a href="service-details.html">Agency </a></li>
+                                    <li><a href="service-details.html">Social media</a></li>
+                                    <li><a href="service-details.html">Branding</a></li>
+                                    <li><a href="service-details.html">Design </a></li>
+                                    <li><a href="service-details.html">Development</a></li>
+                                </ul>
+                                <ul class="footer-list">
+                                    <li><a href="service-details.html">Startup</a></li>
+                                    <li><a href="service-details.html">Agency</a></li>
+                                    <li><a href="service-details.html">Development</a></li>
+                                    <li><a href="service-details.html">Products</a></li>
+                                    <li><a href="service-details.html">Software</a></li>
+                                    <li><a href="service-details.html">Application</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end single footer -->
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="footer-content last-content">
+                            <div class="footer-head">
+                                <h4>Information</h4>
+                                <div class="footer-contacts">
+                                    <p><span>Location :</span> House-32, Zonson street-3/5, London, UK</p>
+                                    <p><span>Tel :</span> +0890-564-5644</p>
+                                    <p><span>Email :</span> info@ranely13.com</p>
+                                </div> 
+                                <div class="subs-feilds">
+                                    <div class="suscribe-input">
+                                        <input type="email" class="email form-control width-80" id="sus_email" placeholder="Type Email">
+                                        <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer Bottom Area -->
+        <div class="footer-area-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="copyright">
+                            <p>Copyright &copy; 2021.Company name All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Terms & Condition</a></li>
+                                <li><a href="contact.html">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Bottom Area -->
+    </footer>
+    <!-- End Footer Area -->
 
-    <!--Carousel Wrapper-->
-  <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-2" data-slide-to="1"></li>
-      <li data-target="#carousel-example-2" data-slide-to="2"></li>
-    </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="view">
-          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-            alt="First slide">
-          <div class="mask rgba-black-light"></div>
-        </div>
-        <div class="carousel-caption">
-          <h3 class="h3-responsive">Light mask</h3>
-          <p>First text</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-            alt="Second slide">
-          <div class="mask rgba-black-strong"></div>
-        </div>
-        <div class="carousel-caption">
-          <h3 class="h3-responsive">Strong mask</h3>
-          <p>Secondary text</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <!--Mask color-->
-        <div class="view">
-          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-            alt="Third slide">
-          <div class="mask rgba-black-slight"></div>
-        </div>
-        <div class="carousel-caption">
-          <h3 class="h3-responsive">Slight mask</h3>
-          <p>Third text</p>
-        </div>
-      </div>
-    </div>
-    <!--/.Slides-->
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-  </div>
-  <!--/.Carousel Wrapper-->
-  
-  </div>
-  <!--Grid column-->
-  
-      <!--Grid column-->
-<div class="col-md-6">
+    <!-- All JS here -->
 
-    <!--Excerpt-->
-    <a href="" class="teal-text">
-        <h6 class="pb-1"><i class="fas fa-angellist"></i><strong> Lifestyle </strong></h6>
-    </a>
-    <h4 class="mb-3"><strong>读美可得感</strong></h4>
-    <p>文章忌俗滥，生活也忌俗滥，是朱光潜先生的文艺理论著作《谈美》中关于审美与艺术创造的关系，也更近一部的阐述了艺术与人生的关系。朱光潜先生是美学界的泰斗，是我国现代美学的开拓者和奠基者之一，也是第一个在中国广泛介绍西方美学的人，而《谈美》是一本关于美学基本思想的论述，但朱光潜先生以极具亲和力的畅谈口吻代替了严肃的学术语气，用一种明白和畅的语言层层解析他对于美所坚持的理想。</p>
-  
-    <p>by <a><strong>一缕阳光</strong></a>,2020-02-24</p>
-    <a href="file:///D:/virtualbox/MDB-Pro-4.12/words.html"> <button class="btn btn-purple btn-md">了解更多</button> </a>
-  
-  </div>
-  <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-  
-  </section>
-  <!--Section: Gallery-->
-      <hr class="my-5">
-  
-      <!--Section: Contact-->
-<section id="contact">
-
-    <!-- Heading -->
-    <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
-  
-    <!--Grid row-->
-    <div class="row">
-  
-    <!--Grid column-->
-<div class="col-lg-5 col-md-12">
-    <!-- Form contact -->
-    <form class="p-5 grey-text">
-      <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
-        <input type="text" id="form1" class="form-control form-control-sm">
-        <label for="form1">Your name</label>
-      </div>
-      <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
-        <input type="text" id="form2" class="form-control form-control-sm">
-        <label for="form2">Your email</label>
-      </div>
-      <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
-        <input type="text" id="form3" class="form-control form-control-sm">
-        <label for="form3">Subject</label>
-      </div>
-      <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
-        <textarea type="text" id="form4" class="md-textarea form-control form-control-sm" rows="4"></textarea>
-        <label for="form4">Your message</label>
-      </div>
-      <div class="text-center mt-4">
-        <button class="btn btn-primary">Send <i class="far fa-paper-planeml-1"></i></button>
-      </div>
-    </form>
-    <!-- Form contact -->
-  </div>
-  <!--Grid column-->
-    <!--Grid column-->
-    <div class="col-lg-7 col-md-12">
-  
-  
-  
-    </div>
-    <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-  
-  </section>
-  <!--Section: Contact-->
-  
-    </div>
-  </main>
-  <!--Main layout-->
-
-<!-- Footer -->
-<footer class="page-footer font-small indigo pt-4 mt-4">
-
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
-  
-      <!-- Grid row -->
-      <div class="row">
-  
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-  
-          <!-- Content -->
-          <h5 class="text-uppercase">Footer Content</h5>
-          <p>Here you can use rows and columns here to organize your footer content.something wrong or rgba-white-light</p>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <hr class="clearfix w-100 d-md-none pb-3">
-  
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-  
-          <!-- Links -->
-          <h5 class="text-uppercase">Chooses</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">恒大</a>
-            </li>
-            <li>
-              <a href="#!">万达</a>
-            </li>
-            <li>
-              <a href="#!">特斯拉</a>
-            </li>
-            <li>
-              <a href="#!">Dior</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-  
-          <!-- Links -->
-          <h5 class="text-uppercase">Chooses</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">我的</a>
-            </li>
-            <li>
-              <a href="#!">你的</a>
-            </li>
-            <li>
-              <a href="#!">我们的</a>
-            </li>
-            <li>
-              <a href="#!">他们的</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-      </div>
-      <!-- Grid row -->
-  
-    </div>
-    <!-- Footer Links -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2021 :
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-<!-- jQuery -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="js/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="js/mdb.min.js"></script>
-<!-- 导入 Sogou Map API -->
-<script type="text/javascript" src="https://api.go2map.com/maps/js/api_v2.5.1.js"></script>
-<!-- Your custom scripts (optional) -->
-<script type="text/javascript">
-  // Carousel options
-  $('#carousel-example-2').carousel({
-    interval: 2000, // 间隔时间, 默认5000毫秒, 如果设置为false则不会自动播放
-    pause: false, // 鼠标移上后是否暂停, 默认暂停
-    wrap: false, // 是否循环轮播, 默认循环
-  });
-
-  /** 定义函数, 加载指定坐标的地图 */
-  function showMap() {
-    var myLatlng = new sogou.maps.LatLng(29.4902, 106.5714);
-    var myOptions = {
-      zoom: 13,
-      center: myLatlng,
-      mapTypeId: sogou.maps.MapTypeId.ROADMAP
-    };
-    map = new sogou.maps.Map(document.getElementById("map-container"), myOptions);
-    marker = new sogou.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "重庆交通大学"
-    });
-  }
-  // 设置事件侦听器, 当窗口加载时调用 showMap 函数
-  sogou.maps.event.addDomListener(window, 'load', showMap);
-</script>
+    <!-- modernizr JS -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- jquery latest version -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- Poper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+        <!-- Isotop js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- meanmenu js -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- Counter js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- waypoint js -->
+    <script src="js/waypoints.js"></script>
+    <script src="js/tilts.js"></script>
+    <!-- venobox js -->
+    <script src="js/venobox.min.js"></script>
+    <!-- magnific js -->
+    <script src="js/magnific.min.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
-<!-- end your project here -->
